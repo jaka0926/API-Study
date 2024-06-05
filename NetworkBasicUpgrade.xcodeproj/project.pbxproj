@@ -10,9 +10,15 @@
 		CE6B55652C0FE4DD00B4B3C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B55642C0FE4DD00B4B3C9 /* AppDelegate.swift */; };
 		CE6B55672C0FE4DD00B4B3C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B55662C0FE4DD00B4B3C9 /* SceneDelegate.swift */; };
 		CE6B55692C0FE4DD00B4B3C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B55682C0FE4DD00B4B3C9 /* ViewController.swift */; };
-		CE6B556C2C0FE4DD00B4B3C9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE6B556B2C0FE4DD00B4B3C9 /* Base */; };
 		CE6B556E2C0FE4DF00B4B3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6B556D2C0FE4DF00B4B3C9 /* Assets.xcassets */; };
 		CE6B55712C0FE4DF00B4B3C9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE6B55702C0FE4DF00B4B3C9 /* Base */; };
+		CE6B557A2C0FE50900B4B3C9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE6B55792C0FE50900B4B3C9 /* SnapKit */; };
+		CE6B557D2C0FE51600B4B3C9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE6B557C2C0FE51600B4B3C9 /* Alamofire */; };
+		CE6B55802C0FE52600B4B3C9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CE6B557F2C0FE52600B4B3C9 /* Kingfisher */; };
+		CE6B55832C0FE57000B4B3C9 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = CE6B55822C0FE57000B4B3C9 /* Toast */; };
+		CE6B55852C0FFD9E00B4B3C9 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B55842C0FFD9E00B4B3C9 /* MarketViewController.swift */; };
+		CE6B55872C10042400B4B3C9 /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B55862C10042400B4B3C9 /* MarketTableViewCell.swift */; };
+		CE6B55892C10130700B4B3C9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CE6B55882C10130700B4B3C9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,12 @@
 		CE6B55642C0FE4DD00B4B3C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6B55662C0FE4DD00B4B3C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE6B55682C0FE4DD00B4B3C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE6B556B2C0FE4DD00B4B3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE6B556D2C0FE4DF00B4B3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6B55702C0FE4DF00B4B3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6B55722C0FE4DF00B4B3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6B55842C0FFD9E00B4B3C9 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		CE6B55862C10042400B4B3C9 /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
+		CE6B55882C10130700B4B3C9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6B55832C0FE57000B4B3C9 /* Toast in Frameworks */,
+				CE6B55802C0FE52600B4B3C9 /* Kingfisher in Frameworks */,
+				CE6B557A2C0FE50900B4B3C9 /* SnapKit in Frameworks */,
+				CE6B557D2C0FE51600B4B3C9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,7 @@
 		CE6B55582C0FE4DD00B4B3C9 = {
 			isa = PBXGroup;
 			children = (
+				CE6B55882C10130700B4B3C9 /* .gitignore */,
 				CE6B55632C0FE4DD00B4B3C9 /* NetworkBasicUpgrade */,
 				CE6B55622C0FE4DD00B4B3C9 /* Products */,
 			);
@@ -59,10 +72,11 @@
 				CE6B55642C0FE4DD00B4B3C9 /* AppDelegate.swift */,
 				CE6B55662C0FE4DD00B4B3C9 /* SceneDelegate.swift */,
 				CE6B55682C0FE4DD00B4B3C9 /* ViewController.swift */,
-				CE6B556A2C0FE4DD00B4B3C9 /* Main.storyboard */,
 				CE6B556D2C0FE4DF00B4B3C9 /* Assets.xcassets */,
 				CE6B556F2C0FE4DF00B4B3C9 /* LaunchScreen.storyboard */,
 				CE6B55722C0FE4DF00B4B3C9 /* Info.plist */,
+				CE6B55842C0FFD9E00B4B3C9 /* MarketViewController.swift */,
+				CE6B55862C10042400B4B3C9 /* MarketTableViewCell.swift */,
 			);
 			path = NetworkBasicUpgrade;
 			sourceTree = "<group>";
@@ -83,6 +97,12 @@
 			dependencies = (
 			);
 			name = NetworkBasicUpgrade;
+			packageProductDependencies = (
+				CE6B55792C0FE50900B4B3C9 /* SnapKit */,
+				CE6B557C2C0FE51600B4B3C9 /* Alamofire */,
+				CE6B557F2C0FE52600B4B3C9 /* Kingfisher */,
+				CE6B55822C0FE57000B4B3C9 /* Toast */,
+			);
 			productName = NetworkBasicUpgrade;
 			productReference = CE6B55612C0FE4DD00B4B3C9 /* NetworkBasicUpgrade.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,12 @@
 				Base,
 			);
 			mainGroup = CE6B55582C0FE4DD00B4B3C9;
+			packageReferences = (
+				CE6B55782C0FE50900B4B3C9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CE6B557B2C0FE51600B4B3C9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				CE6B557E2C0FE52600B4B3C9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				CE6B55812C0FE57000B4B3C9 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
 			productRefGroup = CE6B55622C0FE4DD00B4B3C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6B556E2C0FE4DF00B4B3C9 /* Assets.xcassets in Resources */,
+				CE6B55892C10130700B4B3C9 /* .gitignore in Resources */,
 				CE6B55712C0FE4DF00B4B3C9 /* Base in Resources */,
-				CE6B556C2C0FE4DD00B4B3C9 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6B55852C0FFD9E00B4B3C9 /* MarketViewController.swift in Sources */,
 				CE6B55692C0FE4DD00B4B3C9 /* ViewController.swift in Sources */,
 				CE6B55652C0FE4DD00B4B3C9 /* AppDelegate.swift in Sources */,
+				CE6B55872C10042400B4B3C9 /* MarketTableViewCell.swift in Sources */,
 				CE6B55672C0FE4DD00B4B3C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +175,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE6B556A2C0FE4DD00B4B3C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE6B556B2C0FE4DD00B4B3C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE6B556F2C0FE4DF00B4B3C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +317,7 @@
 				INFOPLIST_FILE = NetworkBasicUpgrade/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,9 +327,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.NetworkBasicUpgrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,7 +349,7 @@
 				INFOPLIST_FILE = NetworkBasicUpgrade/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,9 +359,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.NetworkBasicUpgrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +391,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE6B55782C0FE50900B4B3C9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		CE6B557B2C0FE51600B4B3C9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		CE6B557E2C0FE52600B4B3C9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		CE6B55812C0FE57000B4B3C9 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE6B55792C0FE50900B4B3C9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6B55782C0FE50900B4B3C9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		CE6B557C2C0FE51600B4B3C9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6B557B2C0FE51600B4B3C9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		CE6B557F2C0FE52600B4B3C9 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6B557E2C0FE52600B4B3C9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		CE6B55822C0FE57000B4B3C9 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6B55812C0FE57000B4B3C9 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE6B55592C0FE4DD00B4B3C9 /* Project object */;
 }
