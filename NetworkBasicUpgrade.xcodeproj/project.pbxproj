@@ -12,13 +12,24 @@
 		CE6B55692C0FE4DD00B4B3C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B55682C0FE4DD00B4B3C9 /* ViewController.swift */; };
 		CE6B556E2C0FE4DF00B4B3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6B556D2C0FE4DF00B4B3C9 /* Assets.xcassets */; };
 		CE6B55712C0FE4DF00B4B3C9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE6B55702C0FE4DF00B4B3C9 /* Base */; };
-		CE6B557A2C0FE50900B4B3C9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE6B55792C0FE50900B4B3C9 /* SnapKit */; };
-		CE6B557D2C0FE51600B4B3C9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE6B557C2C0FE51600B4B3C9 /* Alamofire */; };
 		CE6B55802C0FE52600B4B3C9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CE6B557F2C0FE52600B4B3C9 /* Kingfisher */; };
 		CE6B55832C0FE57000B4B3C9 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = CE6B55822C0FE57000B4B3C9 /* Toast */; };
 		CE6B55852C0FFD9E00B4B3C9 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B55842C0FFD9E00B4B3C9 /* MarketViewController.swift */; };
 		CE6B55872C10042400B4B3C9 /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B55862C10042400B4B3C9 /* MarketTableViewCell.swift */; };
 		CE6B55892C10130700B4B3C9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CE6B55882C10130700B4B3C9 /* .gitignore */; };
+		CE6B558B2C1013E800B4B3C9 /* FirstCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B558A2C1013E800B4B3C9 /* FirstCollectionViewController.swift */; };
+		CE6B558D2C10141700B4B3C9 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B558C2C10141700B4B3C9 /* APIKey.swift */; };
+		CE892E592C168B1500C5E66A /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE892E582C168B1400C5E66A /* BookViewController.swift */; };
+		CE892E5B2C1695B300C5E66A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE892E5A2C1695B300C5E66A /* Book.swift */; };
+		CEC273662C17E9BF00C6864C /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC273652C17E9BF00C6864C /* BookTableViewCell.swift */; };
+		CEC273692C17EB2200C6864C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CEC273682C17EB2200C6864C /* SnapKit */; };
+		CEC2736B2C17F39900C6864C /* KakaoBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2736A2C17F39800C6864C /* KakaoBook.swift */; };
+		CEC2736F2C17F8D100C6864C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CEC2736E2C17F8D100C6864C /* Alamofire */; };
+		CEC273712C182C3B00C6864C /* BookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC273702C182C3A00C6864C /* BookCollectionViewController.swift */; };
+		CEC273732C182E8A00C6864C /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC273722C182E8A00C6864C /* BookCollectionViewCell.swift */; };
+		CEC2737D2C18A35000C6864C /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2737C2C18A35000C6864C /* MovieCollectionViewController.swift */; };
+		CEC2737F2C18A3FF00C6864C /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2737E2C18A3FF00C6864C /* MovieCollectionViewCell.swift */; };
+		CEC273812C18BFD500C6864C /* MovieStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC273802C18BFD500C6864C /* MovieStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +43,17 @@
 		CE6B55842C0FFD9E00B4B3C9 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
 		CE6B55862C10042400B4B3C9 /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
 		CE6B55882C10130700B4B3C9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CE6B558A2C1013E800B4B3C9 /* FirstCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewController.swift; sourceTree = "<group>"; };
+		CE6B558C2C10141700B4B3C9 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		CE892E582C168B1400C5E66A /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		CE892E5A2C1695B300C5E66A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CEC273652C17E9BF00C6864C /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		CEC2736A2C17F39800C6864C /* KakaoBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoBook.swift; sourceTree = "<group>"; };
+		CEC273702C182C3A00C6864C /* BookCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewController.swift; sourceTree = "<group>"; };
+		CEC273722C182E8A00C6864C /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEC2737C2C18A35000C6864C /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
+		CEC2737E2C18A3FF00C6864C /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEC273802C18BFD500C6864C /* MovieStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +62,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6B55832C0FE57000B4B3C9 /* Toast in Frameworks */,
+				CEC2736F2C17F8D100C6864C /* Alamofire in Frameworks */,
+				CEC273692C17EB2200C6864C /* SnapKit in Frameworks */,
 				CE6B55802C0FE52600B4B3C9 /* Kingfisher in Frameworks */,
-				CE6B557A2C0FE50900B4B3C9 /* SnapKit in Frameworks */,
-				CE6B557D2C0FE51600B4B3C9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +91,8 @@
 		CE6B55632C0FE4DD00B4B3C9 /* NetworkBasicUpgrade */ = {
 			isa = PBXGroup;
 			children = (
+				CEC273792C18A25300C6864C /* Movie */,
+				CEC2736C2C17F3BC00C6864C /* Book */,
 				CE6B55642C0FE4DD00B4B3C9 /* AppDelegate.swift */,
 				CE6B55662C0FE4DD00B4B3C9 /* SceneDelegate.swift */,
 				CE6B55682C0FE4DD00B4B3C9 /* ViewController.swift */,
@@ -77,8 +101,33 @@
 				CE6B55722C0FE4DF00B4B3C9 /* Info.plist */,
 				CE6B55842C0FFD9E00B4B3C9 /* MarketViewController.swift */,
 				CE6B55862C10042400B4B3C9 /* MarketTableViewCell.swift */,
+				CE6B558A2C1013E800B4B3C9 /* FirstCollectionViewController.swift */,
+				CE6B558C2C10141700B4B3C9 /* APIKey.swift */,
 			);
 			path = NetworkBasicUpgrade;
+			sourceTree = "<group>";
+		};
+		CEC2736C2C17F3BC00C6864C /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				CE892E5A2C1695B300C5E66A /* Book.swift */,
+				CE892E582C168B1400C5E66A /* BookViewController.swift */,
+				CEC273652C17E9BF00C6864C /* BookTableViewCell.swift */,
+				CEC2736A2C17F39800C6864C /* KakaoBook.swift */,
+				CEC273702C182C3A00C6864C /* BookCollectionViewController.swift */,
+				CEC273722C182E8A00C6864C /* BookCollectionViewCell.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		CEC273792C18A25300C6864C /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2737C2C18A35000C6864C /* MovieCollectionViewController.swift */,
+				CEC2737E2C18A3FF00C6864C /* MovieCollectionViewCell.swift */,
+				CEC273802C18BFD500C6864C /* MovieStruct.swift */,
+			);
+			path = Movie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,10 +147,10 @@
 			);
 			name = NetworkBasicUpgrade;
 			packageProductDependencies = (
-				CE6B55792C0FE50900B4B3C9 /* SnapKit */,
-				CE6B557C2C0FE51600B4B3C9 /* Alamofire */,
 				CE6B557F2C0FE52600B4B3C9 /* Kingfisher */,
 				CE6B55822C0FE57000B4B3C9 /* Toast */,
+				CEC273682C17EB2200C6864C /* SnapKit */,
+				CEC2736E2C17F8D100C6864C /* Alamofire */,
 			);
 			productName = NetworkBasicUpgrade;
 			productReference = CE6B55612C0FE4DD00B4B3C9 /* NetworkBasicUpgrade.app */;
@@ -132,10 +181,10 @@
 			);
 			mainGroup = CE6B55582C0FE4DD00B4B3C9;
 			packageReferences = (
-				CE6B55782C0FE50900B4B3C9 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				CE6B557B2C0FE51600B4B3C9 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				CE6B557E2C0FE52600B4B3C9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				CE6B55812C0FE57000B4B3C9 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				CEC273672C17EB2200C6864C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CEC2736D2C17F8D100C6864C /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = CE6B55622C0FE4DD00B4B3C9 /* Products */;
 			projectDirPath = "";
@@ -165,10 +214,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6B55852C0FFD9E00B4B3C9 /* MarketViewController.swift in Sources */,
+				CEC273812C18BFD500C6864C /* MovieStruct.swift in Sources */,
+				CEC273732C182E8A00C6864C /* BookCollectionViewCell.swift in Sources */,
+				CE6B558D2C10141700B4B3C9 /* APIKey.swift in Sources */,
+				CEC2737D2C18A35000C6864C /* MovieCollectionViewController.swift in Sources */,
 				CE6B55692C0FE4DD00B4B3C9 /* ViewController.swift in Sources */,
 				CE6B55652C0FE4DD00B4B3C9 /* AppDelegate.swift in Sources */,
+				CE6B558B2C1013E800B4B3C9 /* FirstCollectionViewController.swift in Sources */,
+				CE892E5B2C1695B300C5E66A /* Book.swift in Sources */,
+				CE892E592C168B1500C5E66A /* BookViewController.swift in Sources */,
 				CE6B55872C10042400B4B3C9 /* MarketTableViewCell.swift in Sources */,
+				CEC273662C17E9BF00C6864C /* BookTableViewCell.swift in Sources */,
 				CE6B55672C0FE4DD00B4B3C9 /* SceneDelegate.swift in Sources */,
+				CEC2737F2C18A3FF00C6864C /* MovieCollectionViewCell.swift in Sources */,
+				CEC2736B2C17F39900C6864C /* KakaoBook.swift in Sources */,
+				CEC273712C182C3B00C6864C /* BookCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,22 +453,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CE6B55782C0FE50900B4B3C9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-		CE6B557B2C0FE51600B4B3C9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.9.1;
-			};
-		};
 		CE6B557E2C0FE52600B4B3C9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher";
@@ -425,19 +469,25 @@
 				minimumVersion = 5.1.1;
 			};
 		};
+		CEC273672C17EB2200C6864C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		CEC2736D2C17F8D100C6864C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CE6B55792C0FE50900B4B3C9 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE6B55782C0FE50900B4B3C9 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		CE6B557C2C0FE51600B4B3C9 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE6B557B2C0FE51600B4B3C9 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
 		CE6B557F2C0FE52600B4B3C9 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CE6B557E2C0FE52600B4B3C9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
@@ -447,6 +497,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CE6B55812C0FE57000B4B3C9 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
 			productName = Toast;
+		};
+		CEC273682C17EB2200C6864C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEC273672C17EB2200C6864C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		CEC2736E2C17F8D100C6864C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEC2736D2C17F8D100C6864C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
